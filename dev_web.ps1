@@ -1,4 +1,4 @@
-# Description: Boxstarter Script  
+# Description: Boxstarter Script
 # Author: Microsoft
 # Common dev settings for web dev
 
@@ -44,6 +44,9 @@ opensuse-42.exe
 #--- Browsers ---
 choco install -y googlechrome
 choco install -y firefox
+
+#--- Microsoft WebDriver ---
+choco install -y microsoftwebdriver
 
 #--- Fonts ---
 choco install -y inconsolata
